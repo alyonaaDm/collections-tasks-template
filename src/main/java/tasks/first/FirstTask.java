@@ -4,7 +4,7 @@ public interface FirstTask {
 
     String breadthFirst(boolean [][] adjacencyMatrix, int startIndex);
 
-    Boolean validateBrackets(String s);
+    boolean checkBrackets(String s);
 
-    Long polishCalculation(String s);
+    Long reverseCalculator(String s);
 }
